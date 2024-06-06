@@ -8,25 +8,31 @@
 
 #characterContainer {
     background: #555;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    display: flex; 
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
 }
 
 #character {
     background: #fff;
-    margin-bottom: 35px;
-    border-radius: 8px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-top: 180px;
+    margin-right: auto;
+    border-radius: 25px;
     box-shadow: 1px 1px 5px #ccc;
+    display: flex;
 }
 
-.character img {
-    width: 100%;
-    display: block;
+#character img {
+    width: fit-content;
+    display: flex;
     height: 400px;
     object-fit: cover;
 }
 
-.character-detail {
+.detail {
     padding: 15px;
 }
