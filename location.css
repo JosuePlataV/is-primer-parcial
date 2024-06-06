@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-#characterContainer {
+#locationContainer {
     background: #555;
     display: flex; 
     gap: 0px;
@@ -15,7 +15,7 @@
     padding-bottom: 150px;
 }
 
-#character {
+#location {
     background: #fff;
     margin-bottom: auto;
     margin-left: auto;
@@ -26,13 +26,7 @@
     display: flex;
 }
 
-#character img {
-    width: fit-content;
-    display: flex;
-    height: 400px;
-    object-fit: cover;
-}
 
-.detail {
+.details {
     padding: 15px;
 }
