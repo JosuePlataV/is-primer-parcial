@@ -9,7 +9,7 @@
 }
 
 #container {
-    background: #555;
+    background: #141414;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -31,4 +31,5 @@
 
 .character-detail {
     padding: 15px;
+    color: #fff;
 }

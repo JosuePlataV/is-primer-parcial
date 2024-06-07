@@ -13,8 +13,10 @@ fetch(url + "/character")
                 <div class="character-detail">
                     <h1>${character.name} </h1>
                     <h2>${character.status} - ${character.species}</h2>
-                    <p>Last known location:</p>
-                    <p>${character.origin.name}</p>
+                    <a href="location.html?id=${character.id}">
+                        <p>Last known location:</p>
+                        <p>${character.origin.name}</p>
+                    </a>
                     <p>First seen in:</p>
                     <p>${character.location.name}</p>
                 </div>

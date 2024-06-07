@@ -1,19 +1,21 @@
 const url = window.location.search
-const urlParamz = new URLSearchParamz(url)
-const id = urlParamz.get('id')
-const urlAPIS = "https://rickandmortyapi.com/api" 
+const urlParams = new URLSearchParams(url)
+const id = urlParams.get('id')
+const urlAPI = "https://rickandmortyapi.com/api" 
 
-fetch(urlAPIS + "/location/" + id)  
+fetch(urlAPI + "/location/" + id)  
     .then(response => response.json())
     .then(location => {
     const locationTemplates = `
         <div id="location">
             <div class="details">
-                <h2>${location.status} - ${location.species}</h2>
-                <p>Last known location:</p>
-                <p>${location.origin.name}</p>
-                <p>First seen in:</p>
-                <p>${location.location.name}</p>
+                <h1>${location.name}</h1>
+                <h3>Type:</h3>
+                <p>${location.type}</p>
+                <h3>Dimension:</h3>
+                <p>${location.dimension}</p>
+                <h3>URL:</h3>
+                <p>${location.url}</p>
             </div>
         </div>`
     locationContainer.innerHTML += locationTemplates
