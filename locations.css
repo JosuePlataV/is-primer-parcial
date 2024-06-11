@@ -8,11 +8,12 @@
     color: #000;
 }
 
-#container {
+#locationsContainer {
     background: #141414;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    text-decoration: none;
 }
 
 header {
@@ -45,24 +46,20 @@ header {
     text-decoration: underline;
   }
 
-.character {
+.locations {
     background: #fff;
     margin-bottom: 35px;
     border-radius: 8px;
     box-shadow: 1px 1px 5px #ccc;
+    text-decoration: none;
 }
 
 #container a {
     text-decoration: none;
 }
-.character img {
-    width: 100%;
-    display: block;
-    height: 400px;
-    object-fit: cover;
-}
 
-.character-detail {
+.detailz {
     padding: 15px;
     color: #fff;
+    text-decoration: none;
 }

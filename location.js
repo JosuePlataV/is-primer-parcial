@@ -18,5 +18,5 @@ fetch(urlAPI + "/location/" + id)
                 <p>${location.url}</p>
             </div>
         </div>`
-    locationContainer.innerHTML += locationTemplates
+            locationContainer.innerHTML += locationTemplates
     }) 
