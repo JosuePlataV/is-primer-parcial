@@ -63,3 +63,7 @@ header {
     color: #fff;
     text-decoration: none;
 }
+
+a {
+    text-decoration: none;
+}
