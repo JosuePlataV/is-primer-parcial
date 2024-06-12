@@ -30,3 +30,34 @@
 .details {
     padding: 15px;
 }
+
+header {
+    background-color: #141414;
+}
+
+.logo {
+    color: #ccc;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 28.5px;
+    display: block;
+    text-decoration: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    float: right;
+    padding-top: 26.5px;
+  }
+  
+  nav a {
+    color: #ccc;
+    font-size: 17px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
