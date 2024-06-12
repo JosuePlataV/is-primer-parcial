@@ -68,3 +68,7 @@ header {
   nav a:hover {
     text-decoration: underline;
   }
+
+  a{
+    text-decoration: none;
+  }

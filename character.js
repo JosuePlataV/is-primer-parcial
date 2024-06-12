@@ -12,8 +12,10 @@ fetch(urlAPI + "/character/" + id)
             <div class="detail">
                 <h1>${character.name} </h1>
                 <h2>${character.status} - ${character.species}</h2>
-                <h3>Last known location:</h3>
+                <a href="location.html?id=${character.id}">
+                <p>Last known location:</p>
                 <p>${character.origin.name}</p>
+                </a>
                 <h3>First seen in:</h3>
                 <p>${character.location.name}</p>
             </div>
